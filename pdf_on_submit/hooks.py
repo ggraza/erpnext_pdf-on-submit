@@ -116,3 +116,8 @@ doc_events = {
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "pdf_on_submit.event.get_events"
 # }
+
+jinja = {
+	"methods": ["pdf_on_submit.quill.split_quill"],
+	# "filters": "pdf_on_submit.utils.jinja_filters"
+}
